@@ -52,7 +52,7 @@ body{
 .line{
     width: 1562px;
     height: 2px;
-    background-color: #0F1113;
+    background-color: red;
     margin: auto;
     margin-top: 70px;
 }
@@ -80,7 +80,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    margin-left: 196px;
+    
     border-radius: 10px;
 }
 .text_pod_line{
@@ -89,7 +89,8 @@ body{
     
 }
 .stolbik_leviy{
-    margin-top: 90px;
+    padding-left: 196px;
+    margin-top: 70px;
 }
 #block1{
     width: 73px;
@@ -170,12 +171,16 @@ body{
     justify-content: space-between;
     
 }
+.stolbik_praviy{
+    padding-right: 600px;
+    margin-top: 110px;
+}
 .palka{
     width: 6px;
     height: 1226px;
     background-color: wheat;
-    margin-left: 946px;
-    margin-top: -1300px;
+    
+    
     border-radius: 17px;
 background: var(--grad-2, linear-gradient(180deg, #FC84FF 0%, #54D1FA 100%));
 align-items: center;
@@ -211,7 +216,7 @@ background-color: black;
 width: 38px;
 height: 38px;
 z-index: 1;
-right: -16px;
+right: -15px;
 top: 3px;
 }
 #krug_in4{
@@ -219,16 +224,15 @@ top: 3px;
     width: 38px;
     height: 38px;
     z-index: 1;
-    right: -16px;
-    top: 74
-    3px;
+    right: -15px;
+    top: 743px;
     }
 #krug_in1{
     background-color: black;
     width: 38px;
     height: 38px;
     z-index: 1;
-    right: -16px;
+    right: -15px;
     top: 223px;
 }
 #krug_in5{
@@ -236,7 +240,7 @@ top: 3px;
     width: 38px;
     height: 38px;
     z-index: 1;
-    right: -16px;
+    right: -15px;
     top: 1000px;
 }
 #krug_in2{
@@ -244,7 +248,7 @@ top: 3px;
     width: 38px;
     height: 38px;
     z-index: 1;
-    right: -16px;
+    right: -15px;
     top: 466px;
 }
 .text_in_krug{
@@ -294,4 +298,49 @@ top: 3px;
 .months_autumn{
     font-size: 20px;
     color: #B2A6FD;
+}
+#text_step1{
+    top: 290px;
+    color: #8EB7FC;
+}
+#ttt{
+    color: #8EB7FC;
+}
+#ttt1{
+    color: #8EB7FC;
+}
+#ttt2{
+    color: #8EB7FC;
+}
+#ttt3{
+    color: #8EB7FC;
+}
+#ttt4{
+    color: #8EB7FC;
+}
+#text_step2{
+    top: 795px;
+}
+#bbb1{
+    color: #7AC0FB;
+}
+#bbb2{
+    color: #7AC0FB;
+}
+#bbb3{
+    color: #7AC0FB;
+}
+@media screen and (max-width: 1600px){
+    .line{
+        width: 1340px;
+    }
+}
+.stolbiki{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1380px){
+    .line{
+        width: 1020px;
+    }
 }
